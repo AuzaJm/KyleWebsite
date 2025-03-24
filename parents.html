@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="bg-dark text-white text-center py-3">
+        <h1>MY WEBSITE</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="family.html" id="familyDropdown" role="button"
+                            data-bs-toggle="dropdown">Family</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="parents.html">Parents</a></li>
+                            <li><a class="dropdown-item" href="siblings.html">Siblings</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="spec.html">Specialization</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="schoolLifeDropdown" role="button"
+                            data-bs-toggle="dropdown">School Life</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="preschool.html">Preschool</a></li>
+                            <li><a class="dropdown-item" href="elementary.html">Elementary</a></li>
+                            <li><a class="dropdown-item" href="jhs02.html">JHS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex justify-content-center mt-4">
+        <img src="Parents.jpg" class="img-fluid" style="width: 20rem;">
+    </div>
+    
+
+    <section id="family" class="container mt-4">
+        <h2>PARENTS</h2>
+        <p>My parents mean everything to me—they're my biggest cheerleaders, my teachers, and my role models. My dad is
+            the type of guy who works hard and never complains, always making sure we have what we need. He has this
+            calm, steady presence that gives me the feeling that everything will be alright, no matter what happens.
+            Plus, he's got a fantastic sense of humor—he really knows how to lighten the mood when things get a bit
+            tense. He’s the one who taught me to keep moving forward, even when things get tough, and to always choose
+            the right path, no matter how difficult it may be. My mom, on the flip side, is the heart of our family. She
+            makes everything feel warm and safe. Even when she's super busy, she manages to find time to listen,
+            comfort, and offer advice that somehow always hits the mark. She’s incredibly strong, even if she sometimes
+            doesn’t see it herself, and she knows how to juggle everything while putting others first. Her kindness and
+            patience truly inspire me, and I hope I can be even half as compassionate as she is. Together, they create a
+            home full of love, laughter, and support. They aren't perfect—who is?—but they are everything I could ever
+            wish for in parents. I can’t express how grateful I am for them, and I hope they always realize how much I
+            appreciate all they do.</p>
+    </section>
+
+    <main class="container my-4">
+        <p></p>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <p>KYLE NICOLE VENEGAS SPA 10</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

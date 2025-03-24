@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Add this CSS to make the footer stick to the bottom */
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .content-wrapper {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer {
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-wrapper">
+        <header class="bg-dark text-white text-center py-3">
+            <h1>WELCOME TO MY WEBSITE</h1>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="familyDropdown" role="button" data-bs-toggle="dropdown">Family</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="parents.html">Parents</a></li>
+                                <li><a class="dropdown-item" href="siblings.html">Siblings</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="specialization.html">Specialization</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="schoolLifeDropdown" role="button" data-bs-toggle="dropdown">School Life</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="preschool.html">Preschool</a></li>
+                                <li><a class="dropdown-item" href="elementary.html">Elementary</a></li>
+                                <li><a class="dropdown-item" href="jhs02.html">JHS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="profile" class="container mt-4">
+            <div class="text-center mb-4">
+                <img src="1234567.jpg" class="img-fluid rounded w-25" alt="Parents Picture">
+            </div> 
+            <h2>PROFILE</h2>
+            <p>Hello, my name is Kyle Nicole Veñegas, a Grade 10 student of SPA Shakespeare. I am currently 16 years old and will be turning 17 on August 31. I live in Cubay Sermon, Sibalom, Antique.</p>
+            <p>To introduce myself and share about my life, let's begin at the very start. I was born at Pasong Birthing Clinic, Sibalom Antique, on August 31, 2008. I studied elementary at Sibalom Central Elementary School, and my elementary years were fun and exciting until the pandemic came in the middle of my Grade 5 class and lasted until I was in Grade 7. During this challenging time, it was difficult to go out due to the risk of exposure to viruses. Studying online was a bit difficult for me because I could not socialize and experience my Grade 6 graduation and my first day of junior high school.</p>
+            <p>However, one positive outcome of the COVID-19 pandemic was that I discovered my passion for dancing while staying at home—not too well, but not too bad either. After graduating from elementary school, I enrolled at Antique National School as an SPA student majoring in dance. That's how my life has been, and now I am in my last year as an SPA student and still enjoying dancing.</p>
+        </section>
+
+        <footer class="bg-dark text-white text-center py-3 mt-4 footer">
+            <p>KYLE NICOLE VENEGAS SPA 10</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
